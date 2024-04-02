@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#keys
+{
+    background-image: url(background.jpg);
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1
+{
+    color: white;
+    font-weight: 800;
+    display: inline;
+}
+
+span
+{ 
+    margin-top: 0.3rem ;
+    color: orange;
+    font-weight: 700;
+}
+
+.key
+{
+    border: 2px Solid black;
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 5.5rem;
+    width: 5.5rem;
+    background-color: rgb(34, 34,34,0.65);
+}
+
+.key:hover
+{
+    border: 2px solid orange;
+    background-color: rgb(188, 3, 3);
+    cursor: pointer;
+}
