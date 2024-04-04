@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --spacing : 10px;
+    --base : #ffc600;
+    --blur : 0px;
+}
+
+body
+{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.controls
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+img
+{
+    height: 320px;
+    width: 600px;
+    background-color: var(--base);
+    filter: blur(var(--blur));
+    padding: var(--spacing);
+}
+
+span{ color: var(--base);}
+
